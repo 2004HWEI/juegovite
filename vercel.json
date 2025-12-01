@@ -1,13 +1,11 @@
 {
     "version": 2,
-    "routes": [
+    "rewrites": [
       {
-        "src": "/(.*\\.(png|jpg|jpeg|gif|svg|ico))",
-        "dest": "/public/$1"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/index.html"
+        "source": "/(.*)",
+        "destination": "/index.html"
       }
-    ]
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
   }
