@@ -2,8 +2,8 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/(.*\\.(png|jpg|jpeg|gif|svg|ico|css|js))",
-      "destination": "/$1"
+      "source": "/public/(.*)",
+      "destination": "/public/$1"
     },
     {
       "source": "/(.*)",
