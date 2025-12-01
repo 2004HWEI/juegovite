@@ -18,9 +18,9 @@ class RompeBloquesGame {
             brick: new Image()
         };
 
-        this.images.platform.src = '/tierra.png';
-        this.images.ball.src = '/esfera.png';
-        this.images.brick.src = '/ladrillo.png';
+        this.images.platform.src = '/public/tierra.png';
+        this.images.ball.src = '/public/esfera.png';
+        this.images.brick.src = '/public/ladrillo.png';
 
         this.setupFallbackImages();
 
